@@ -202,4 +202,13 @@ body {
   .forecast-box {
     margin: 10px 0;
   }
+
+  #weatherbox {
+    background-color: black; /* Change background color for mobile */
+  }
+
+  #midbox {
+    display: block; /* Ensure midbox image displays correctly on mobile */
+    background-image: none;
+  }
 }
