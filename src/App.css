@@ -158,3 +158,48 @@ body {
   background-color: rgba(50, 50, 50, 0.7);
   color: white;
 }
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  #weatherbox {
+    flex-direction: column;
+    align-items: stretch;
+    height: auto;
+    margin-top: 0;
+  }
+
+  #leftbox,
+  #mainright,
+  #midbox,
+  #quote {
+    flex: none;
+    margin: 10px 20px;
+    border-radius: 6%;
+    height: auto;
+    max-height: none;
+    font-size: small;
+  }
+
+  #leftbox {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #midbox {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #rightbox {
+    flex-direction: column;
+  }
+
+  .forecast-container {
+    flex-direction: column;
+    margin: 10px 20px;
+  }
+
+  .forecast-box {
+    margin: 10px 0;
+  }
+}
