@@ -166,6 +166,7 @@ body {
     align-items: stretch;
     height: auto;
     margin-top: 0;
+    background-color: black; /* Change background color for mobile */
   }
 
   #leftbox,
@@ -188,6 +189,9 @@ body {
   #midbox {
     margin-left: 20px;
     margin-right: 20px;
+    background-image: url(''); /* Ensure no background image is set here */
+    background-size: cover;
+    background-position: center;
   }
 
   #rightbox {
@@ -201,14 +205,5 @@ body {
 
   .forecast-box {
     margin: 10px 0;
-  }
-
-  #weatherbox {
-    background-color: black; /* Change background color for mobile */
-    background-image: none;
-  }
-
-  #midbox {
-    display: block; /* Ensure midbox image displays correctly on mobile */
   }
 }
