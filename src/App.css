@@ -205,10 +205,10 @@ body {
 
   #weatherbox {
     background-color: black; /* Change background color for mobile */
+    background-image: none;
   }
 
   #midbox {
     display: block; /* Ensure midbox image displays correctly on mobile */
-    background-image: none;
   }
 }
